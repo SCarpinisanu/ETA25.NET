@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TestProject1.Session2
+{
+    public class Cursant
+    {
+        string numeCursant;
+        string prenumeCursant;
+        int varsta;
+        int cnp;
+        bool esteActiv;
+        char gen;
+        float nota;
+        double inaltime;
+
+        [Test]
+        public void metodaTest()
+        {
+            numeCursant = "Carpinisanu";
+            prenumeCursant = "Sorin";
+            varsta = 26;
+            //cnp = 1234567890123;
+            var numarLung = 1234567890123;
+            esteActiv = false;
+            gen = 'M';
+            nota = 7.10f;
+            inaltime = 1.75;
+
+            Console.Write("Nume cursant: " + numeCursant + " " + prenumeCursant + "\n");
+            //Console.WriteLine(" " + prenumeCursant);
+            Console.Write("Varsta " + numarLung);
+
+        }
+
+    }
+}

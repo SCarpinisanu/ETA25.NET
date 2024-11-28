@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TestProject1
+{
+    public class Exemplu1
+    {
+        [Test]
+        public void MetodaTest()
+        {
+            //Comentariu
+            Console.WriteLine("Exemplu test C#");
+        }
+
+    }
+}
