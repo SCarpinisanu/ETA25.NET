@@ -12,6 +12,7 @@ namespace ETA25.NET.Tema1Test
         [Test]
         public void PrimaTemaTest()
         {
+            //Message added in GitHUB - try to commit changes with the solution still open in Visual Studio 2022
             string firstName = "Sorin";
             string lastName = "Carpinisanu";
             string age = "57";
