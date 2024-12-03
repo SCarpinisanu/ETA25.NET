@@ -21,7 +21,7 @@ namespace ETA25.NET.Tema1Test
             //Adding a message in Visual Studio 2022 to push change in GitHUB
             Console.WriteLine("Hello," + "\n");
 
-            Console.WriteLine("Your details are as follows:");
+            Console.WriteLine("Your details are as follows adding new data:");
             Console.WriteLine("    - First Name : " + firstName);
             Console.WriteLine("    - Last Name  : " + lastName);
             Console.WriteLine("    - Gender     : " + gender);
